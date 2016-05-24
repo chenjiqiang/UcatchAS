@@ -1,0 +1,210 @@
+[
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\myfriends_list_item.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\myfriends_list_item.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\home_listview_item.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\home_listview_item.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\myfriends_layout.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\myfriends_layout.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "F:\\ucatch\\UCatch\\build\\intermediates\\exploded-aar\\UCatch\\library\\unspecified\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\find_seletor.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\find_seletor.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\choose_friends.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\choose_friends.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\attention_item.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\attention_item.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\find_listview_item.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\find_listview_item.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\mymessage_item.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\mymessage_item.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\who_can_look.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\who_can_look.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\usercenter_name_dialog.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\usercenter_name_dialog.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\news_common_comment_layout.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\news_common_comment_layout.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\activity_settings.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_header.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\xlistview_header.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\comment_item.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\comment_item.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\mine.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\mine.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_footer.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\xlistview_footer.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\listview_item.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\listview_item.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\item.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\item.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\settings_update_dialog.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\settings_update_dialog.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\main_leave_msg.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\main_leave_msg.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\pick_layout.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\pick_layout.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\location_change_item.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\location_change_item.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\load_view.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\load_view.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\home.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\home.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\head_layout.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\head_layout.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\cancel_progress_dialog.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\cancel_progress_dialog.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\settings_upgrade_down_view.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\settings_upgrade_down_view.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\ucatch_dialog.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\ucatch_dialog.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\gridview_item.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\gridview_item.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\common_top_navigate_layout.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\common_top_navigate_layout.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\friends_item.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\friends_item.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\share_detail.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\share_detail.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\show_location_change.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\show_location_change.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\find.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\find.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\mymessage.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\mymessage.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\login_layout.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\login_layout.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\pulltorefreshview_header.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\pulltorefreshview_header.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_list_item.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\xlistview_list_item.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\register_main.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\register_main.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_main.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\xlistview_main.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "F:\\ucatch\\UCatch\\build\\intermediates\\exploded-aar\\UCatch\\library\\unspecified\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mypick.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\activity_mypick.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\pick_comment.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\pick_comment.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\common_layout.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\common_layout.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dialog.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\layout_dialog.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\pulltorefreshview_footer.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\pulltorefreshview_footer.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\find_head_layout.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\find_head_layout.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\login_dialog.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\login_dialog.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\homefragment.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\homefragment.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\layout\\my_dialog.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\layout\\my_dialog.xml"
+    }
+]

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/pick_head"
+        layout="@layout/find_head_layout" />
+
+    <RelativeLayout
+        android:id="@+id/rl_has_msg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/pick_head" >
+
+        <ImageView
+            android:id="@+id/iv_takephoto"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/default_pic"
+            android:scaleType="centerCrop" />
+
+        <com.meg7.widget.CircleImageView
+            android:id="@+id/userhead_pic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/main_rightmenu_default_head"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/ll_pick_layout_msg"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/userhead_pic"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@id/userhead_pic"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/pick_layout_catch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="right"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_pick_praise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/common_praise_do"
+                    android:text="赞"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="12dp"
+                    android:layout_margin="4dp"
+                    android:background="@color/gray" />
+
+                <TextView
+                    android:id="@+id/tv_pick_comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/common_comment_icon"
+                    android:paddingRight="8dp"
+                    android:text="评论"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_pick_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_takephoto"
+            android:gravity="center|left" >
+
+            <ImageView
+                android:id="@+id/pick_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:src="@drawable/edit_location" />
+
+            <EditText
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/pick_location"
+                android:gravity="center_vertical"
+                android:text="@string/location" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_pick_location"
+            android:gravity="center" >
+
+            <com.chen.ucatch.view.RoundProgressBar
+                android:id="@+id/roundProgressBar1"
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                app:textSize="16dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            layout="@layout/news_common_comment_layout" />
+    </RelativeLayout>
+
+</LinearLayout>

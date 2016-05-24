@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/common_back" />
+
+        <TextView
+            android:id="@+id/tv_comment_num"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:drawableLeft="@drawable/common_comment_icon"
+            android:drawablePadding="4dp"
+            android:gravity="center_vertical"
+            android:padding="14dp"
+            android:text="0"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tv_praise_num"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/tv_comment_num"
+            android:drawableLeft="@drawable/common_praise_do"
+            android:drawablePadding="4dp"
+            android:gravity="center_vertical"
+            android:padding="14dp"
+            android:text="0"
+            android:textSize="14dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/rl_title"
+        android:background="@color/darkgrey" />
+
+    <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pull_refresh_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/rl_title"
+        android:layout_marginBottom="48dp"
+        ptr:ptrAnimationStyle="flip"
+        ptr:ptrMode="both" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_leave_msg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+
+                <LinearLayout
+                    android:id="@+id/ll_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <com.meg7.widget.CircleImageView
+                        android:id="@+id/comment_listview_user_icon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/main_rightmenu_default_head" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/comment_listview_user_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/comment_listview_occur_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/common_weak_hint_text_color"
+                            android:textSize="12.6sp" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/bt_attention"
+                        android:layout_width="66dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:focusable="false"
+                        android:text="关注" >
+                    </Button>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/edit_location"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="14dp" />
+
+                <LinearLayout
+                    android:id="@+id/ll_share_detail_heads"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:orientation="horizontal" >
+
+                    <GridView
+                        android:id="@+id/share_detail_heads"
+                        android:layout_width="0dp"
+                        android:layout_height="34dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:horizontalSpacing="10dp"
+                        android:listSelector="@color/white"
+                        android:numColumns="5" >
+                    </GridView>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="center" >
+
+                        <TextView
+                            android:id="@+id/tv_more"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dp"
+                            android:text="..."
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/tv_more"
+                            android:drawableLeft="@drawable/common_praise_do"
+                            android:drawablePadding="10dp"
+                            android:padding="10dp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <com.chen.ucatch.view.MyListView
+                    android:id="@+id/lv_comment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@android:color/transparent"
+                    android:dividerHeight="0dp"
+                    android:listSelector="@android:color/transparent" >
+                </com.chen.ucatch.view.MyListView>
+            </LinearLayout>
+        </ScrollView>
+    </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+
+    <include
+        android:id="@+id/common_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        layout="@layout/common_layout" />
+
+</RelativeLayout>

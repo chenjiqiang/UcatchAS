@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/head_layout" />
+
+    <RelativeLayout
+        android:id="@+id/rl_open_look"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/tv_open_look"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="公开"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_open_look"
+            android:paddingTop="5dp"
+            android:text="所以朋友可见"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_open_look"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/location_poi_sure" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_person_look"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/tv_person_look"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="私密"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_person_look"
+            android:paddingTop="5dp"
+            android:text="仅自己可见"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_person_look"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/location_poi_sure"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_part_look"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/tv_part_look"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="部分可见"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_part_look"
+            android:paddingTop="5dp"
+            android:text="只选中朋友可见"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_parts_friends"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:paddingLeft="30dp" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <include layout="@layout/head_layout" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp" >
+
+        <EditText
+            android:id="@+id/et_location_change"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp" />
+        <Button
+            android:id="@+id/location_change_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="搜索" />
+    </RelativeLayout>
+
+    <com.chen.ucatch.view.RefreshableContainer
+        android:id="@+id/refresh_data"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff" >
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@null" >
+        </ListView>
+    </com.chen.ucatch.view.RefreshableContainer>
+
+</LinearLayout>

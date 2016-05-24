@@ -1,0 +1,459 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:2:1-259:12
+	package
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:3:5-30
+	android:versionName
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:5:5-30
+		INJECTED from F:\ucatch\UCatch\AndroidManifest.xml
+		INJECTED from F:\ucatch\UCatch\AndroidManifest.xml
+	android:versionCode
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:4:5-28
+		INJECTED from F:\ucatch\UCatch\AndroidManifest.xml
+		INJECTED from F:\ucatch\UCatch\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:7:5-9:41
+MERGED from [UCatch:library:unspecified] F:\ucatch\UCatch\build\intermediates\exploded-aar\UCatch\library\unspecified\AndroidManifest.xml:7:5-43
+	android:targetSdkVersion
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:9:9-38
+	android:minSdkVersion
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:8:9-35
+uses-permission#android.permission.READ_LOGS
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:11:22-65
+uses-permission#android.permission.GET_TASKS
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:13:22-65
+uses-permission#android.permission.SET_DEBUG_APP
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:14:5-72
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:14:22-69
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:15:5-78
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:15:22-75
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:16:5-71
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:16:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:17:5-74
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:17:22-71
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:18:5-74
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:18:22-71
+uses-permission#android.permission.INTERNET
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:19:5-67
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:19:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:20:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:21:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:22:5-75
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:22:22-72
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:24:22-65
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:25:5-73
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:25:22-70
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:26:5-80
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:26:22-77
+permission#com.chen.ucatch.permission.JPUSH_MESSAGE
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:31:5-33:47
+	android:protectionLevel
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:33:9-44
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:32:9-64
+uses-permission#com.chen.ucatch.permission.JPUSH_MESSAGE
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:36:5-80
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:36:22-77
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:37:5-79
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:37:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:38:5-66
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:38:22-63
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:39:5-84
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:39:22-81
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:42:5-81
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:42:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:43:5-76
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:43:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:44:5-76
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:44:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:45:5-79
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:45:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:46:5-89
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:46:22-86
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:47:5-79
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:47:22-76
+application
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:49:5-257:19
+MERGED from [UCatch:library:unspecified] F:\ucatch\UCatch\build\intermediates\exploded-aar\UCatch\library\unspecified\AndroidManifest.xml:9:5-20
+	android:screenOrientation
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:54:9-45
+	android:label
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:53:9-41
+	android:allowBackup
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:51:9-35
+	android:icon
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:52:9-45
+	android:theme
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:55:9-40
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:50:9-51
+meta-data#JPUSH_CHANNEL
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:59:9-61:49
+	android:value
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:61:13-46
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:60:13-41
+meta-data#JPUSH_APPKEY
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:63:9-65:56
+	android:value
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:65:13-53
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:64:13-40
+activity#cn.jpush.android.ui.PushActivity
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:67:9-78:20
+	android:configChanges
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:69:13-63
+	android:theme
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:70:13-72
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:68:13-60
+intent-filter#android.intent.category.DEFAULT+cn.jpush.android.ui.PushActivity+com.chen.ucatch
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:71:13-77:29
+action#cn.jpush.android.ui.PushActivity
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:72:17-75
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:72:25-72
+category#android.intent.category.DEFAULT
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:74:17-76
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:74:27-73
+category#com.chen.ucatch
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:76:17-60
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:76:27-57
+service#cn.jpush.android.service.DownloadService
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:81:9-85:19
+	android:enabled
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:83:13-35
+	android:exported
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:84:13-37
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:82:13-68
+service#cn.jpush.android.service.PushService
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:88:9-98:19
+	android:enabled
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:90:13-35
+	android:exported
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:91:13-37
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:89:13-64
+intent-filter#cn.jpush.android.intent.PUSH_TIME+cn.jpush.android.intent.PushService+cn.jpush.android.intent.REGISTER+cn.jpush.android.intent.REPORT
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:92:13-97:29
+action#cn.jpush.android.intent.REGISTER
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:93:17-75
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:93:25-72
+action#cn.jpush.android.intent.REPORT
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:94:17-73
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:94:25-70
+action#cn.jpush.android.intent.PushService
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:95:17-78
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:95:25-75
+action#cn.jpush.android.intent.PUSH_TIME
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:96:17-76
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:96:25-73
+receiver#cn.jpush.android.service.PushReceiver
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:101:9-122:20
+	android:enabled
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:103:13-35
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:102:13-65
+intent-filter#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+com.chen.ucatch
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:104:13-110:29
+	android:priority
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:104:28-51
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:107:17-94
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:107:25-91
+intent-filter#android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:111:13-114:29
+action#android.intent.action.USER_PRESENT
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:112:17-77
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:112:25-74
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:113:17-79
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:113:25-76
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REMOVED
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:116:13-121:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:117:17-78
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:117:25-75
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:118:17-80
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:118:25-77
+data
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:120:17-58
+	android:scheme
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:120:23-55
+receiver#cn.jpush.android.service.AlarmReceiver
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:125:9-75
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:125:19-72
+receiver#com.chen.ucatch.JPushBroadcastReceiver
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:128:9-148:20
+	android:enabled
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:130:13-35
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:129:13-66
+intent-filter#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK+cn.jpush.android.intent.CONNECTION+cn.jpush.android.intent.MESSAGE_RECEIVED+cn.jpush.android.intent.NOTIFICATION_OPENED+cn.jpush.android.intent.NOTIFICATION_RECEIVED+cn.jpush.android.intent.REGISTRATION+cn.jpush.android.intent.UNREGISTRATION+com.chen.ucatch
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:131:13-147:29
+action#cn.jpush.android.intent.REGISTRATION
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:132:17-79
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:132:25-76
+action#cn.jpush.android.intent.UNREGISTRATION
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:134:17-81
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:134:25-78
+action#cn.jpush.android.intent.MESSAGE_RECEIVED
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:135:17-83
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:135:25-80
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:137:17-88
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:137:25-85
+action#cn.jpush.android.intent.NOTIFICATION_OPENED
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:139:17-86
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:139:25-83
+action#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:141:17-91
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:141:25-88
+action#cn.jpush.android.intent.CONNECTION
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:143:17-77
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:143:25-74
+meta-data#com.amap.api.v2.apikey
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:150:9-152:64
+	android:value
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:152:13-61
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:151:13-50
+activity#com.chen.ucatch.ui.UcatchMainActivity
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:159:9-164:20
+	android:label
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:161:13-45
+	android:launchMode
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:162:13-44
+	android:theme
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:163:13-66
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:160:13-65
+activity#com.chen.ucatch.ui.GuideActivity
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:165:9-175:20
+	android:label
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:167:13-45
+	android:launchMode
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:168:13-44
+	android:theme
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:169:13-66
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:166:13-60
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:170:13-174:29
+action#android.intent.action.MAIN
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:171:17-69
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:171:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:173:17-77
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:173:27-74
+activity#com.chen.ucatch.ui.LoginActivity
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:176:9-182:20
+	android:label
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:178:13-31
+	android:launchMode
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:179:13-44
+	android:windowSoftInputMode
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:181:13-52
+	android:theme
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:180:13-66
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:177:13-60
+activity#com.chen.ucatch.ui.PickActivity
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:183:9-188:20
+	android:screenOrientation
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:186:13-49
+	android:label
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:185:13-31
+	android:theme
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:187:13-66
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:184:13-59
+activity#com.chen.ucatch.ui.TestForLocation
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:189:9-192:20
+	android:theme
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:191:13-66
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:190:13-62
+activity#com.chen.ucatch.ui.LeaveMsg
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:193:9-197:20
+	android:label
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:195:13-31
+	android:theme
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:196:13-66
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:194:13-55
+activity#com.chen.ucatch.ui.ChooseFriends
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:198:9-203:20
+	android:label
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:200:13-35
+	android:windowSoftInputMode
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:202:13-52
+	android:theme
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:201:13-66
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:199:13-60
+activity#com.chen.ucatch.ui.PermissionToLook
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:204:9-209:20
+	android:label
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:206:13-33
+	android:windowSoftInputMode
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:208:13-52
+	android:theme
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:207:13-66
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:205:13-63
+activity#com.chen.ucatch.ui.TestForData
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:210:9-214:20
+	android:windowSoftInputMode
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:213:13-52
+	android:theme
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:212:13-66
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:211:13-58
+activity#com.chen.ucatch.ui.RegsiterActivity
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:215:9-220:20
+	android:label
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:217:13-45
+	android:windowSoftInputMode
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:219:13-52
+	android:theme
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:218:13-66
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:216:13-63
+activity#com.chen.ucatch.ui.ShareDetailAcitivity
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:221:9-226:20
+	android:label
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:223:13-31
+	android:windowSoftInputMode
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:225:13-52
+	android:theme
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:224:13-66
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:222:13-67
+activity#com.chen.ucatch.ui.FriendListActivity
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:227:9-232:20
+	android:label
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:229:13-33
+	android:windowSoftInputMode
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:231:13-52
+	android:theme
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:230:13-66
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:228:13-65
+activity#com.chen.ucatch.ui.MyAttentionActivity
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:233:9-238:20
+	android:label
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:235:13-33
+	android:windowSoftInputMode
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:237:13-52
+	android:theme
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:236:13-66
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:234:13-66
+activity#com.chen.ucatch.ui.CommentAcitivity
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:239:9-244:20
+	android:label
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:241:13-33
+	android:windowSoftInputMode
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:243:13-52
+	android:theme
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:242:13-66
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:240:13-63
+activity#com.chen.ucatch.ui.MyMessageActivity
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:245:9-250:20
+	android:label
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:247:13-33
+	android:windowSoftInputMode
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:249:13-52
+	android:theme
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:248:13-66
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:246:13-64
+activity#com.chen.ucatch.ui.MyPickActivity
+ADDED from F:\ucatch\UCatch\AndroidManifest.xml:251:10-256:20
+	android:label
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:253:13-33
+	android:windowSoftInputMode
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:255:13-52
+	android:theme
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:254:13-66
+	android:name
+		ADDED from F:\ucatch\UCatch\AndroidManifest.xml:252:13-61

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/news_comment_layout"
+    android:background="@drawable/news_detail_buttom_commet_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <EditText
+        android:id="@+id/share_detail_comment_edit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/common_comment_edit_bg"
+        android:hint="@string/common_comment_hint"
+        android:padding="8dp"
+        android:textSize="14sp" />
+    <Button
+        android:id="@+id/share_detail_submit"
+        android:layout_width="60dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="8dp"
+        android:gravity="center"
+        android:text="@string/common_comment_text"
+        android:background="@drawable/common_comment_button_normal_gb"
+        android:textColor="@color/gray"
+        android:textSize="16sp"
+        android:visibility="gone"/>
+
+
+    <TextView
+        android:id="@+id/news_detail_comments_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:drawableLeft="@drawable/common_comment_icon"
+        android:drawablePadding="5.4dp"
+        android:text="0"
+        android:visibility="gone"
+        android:textColor="@color/common_minor_title_text_color"
+        android:textSize="14sp" />
+
+</LinearLayout>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    android:orientation="vertical" >
+    <include
+        android:id="@+id/toptitleview"
+        layout="@layout/common_top_navigate_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            
+            <!-- 信息推送 -->
+
+            <RelativeLayout
+                android:id="@+id/settings_push_message"
+                style="@style/userinfo_item_style" >
+
+                <TextView
+                    style="@style/userinfo_item_left_style"
+                    android:text="@string/settings_push_message_text" />
+
+                <CheckBox
+                    android:id="@+id/settings_push_message_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:button="@drawable/common_checkbox_multiple_bg" />
+            </RelativeLayout>
+
+            <LinearLayout style="@style/userinfo_item_divide_container_style" >
+
+                <View style="@style/userinfo_item_divide_style" />
+            </LinearLayout>
+
+            <!-- 声音提醒 -->
+
+            <RelativeLayout
+                android:id="@+id/settings_voice_reminder"
+                style="@style/userinfo_item_style" >
+
+                <TextView
+                    style="@style/userinfo_item_left_style"
+                    android:text="@string/settings_voice_reminder_text" />
+
+                <CheckBox
+                    android:id="@+id/settings_voice_reminder_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:button="@drawable/common_checkbox_multiple_bg" />
+            </RelativeLayout>
+
+            <LinearLayout style="@style/userinfo_item_divide_container_style" >
+
+                <View style="@style/userinfo_item_divide_style" />
+            </LinearLayout>
+
+            <!-- 震动提醒 -->
+
+            <RelativeLayout
+                android:id="@+id/settings_shake_reminder"
+                style="@style/userinfo_item_style" >
+
+                <TextView
+                    style="@style/userinfo_item_left_style"
+                    android:text="@string/settings_shake_reminder_text" />
+
+                <CheckBox
+                    android:id="@+id/settings_shake_reminder_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:button="@drawable/common_checkbox_multiple_bg" />
+            </RelativeLayout>
+
+            <LinearLayout style="@style/userinfo_item_divide_container_style" >
+
+                <View style="@style/userinfo_item_divide_style" />
+            </LinearLayout>
+
+            <!-- 防打扰模式 -->
+
+            <RelativeLayout
+                android:id="@+id/settings_anti_interference_pattern"
+                style="@style/userinfo_item_style" >
+
+                <TextView
+                    style="@style/userinfo_item_left_style"
+                    android:text="@string/settings_anti_interference_pattern_text" />
+
+                <CheckBox
+                    android:id="@+id/settings_anti_interference_pattern_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:button="@drawable/common_checkbox_multiple_bg" />
+            </RelativeLayout>
+
+            <LinearLayout style="@style/userinfo_item_divide_container_style" >
+
+                <View style="@style/userinfo_item_divide_style" />
+            </LinearLayout>
+
+            <!-- 开始时间 -->
+
+            <RelativeLayout
+                android:id="@+id/settings_start_time"
+                style="@style/userinfo_item_style" >
+
+                <TextView
+                    style="@style/userinfo_item_left_style"
+                    android:text="@string/settings_start_time_text" />
+
+                <TextView
+                    android:id="@+id/settings_start_time_show"
+                    style="@style/userinfo_item_right_style" />
+            </RelativeLayout>
+
+            <LinearLayout style="@style/userinfo_item_divide_container_style" >
+
+                <View style="@style/userinfo_item_divide_style" />
+            </LinearLayout>
+
+            <!-- 结束时间 -->
+
+            <RelativeLayout
+                android:id="@+id/settings_end_time"
+                style="@style/userinfo_item_style" >
+
+                <TextView
+                    style="@style/userinfo_item_left_style"
+                    android:text="@string/settings_end_time_text" />
+
+                <TextView
+                    android:id="@+id/settings_end_time_show"
+                    style="@style/userinfo_item_right_style" />
+            </RelativeLayout>
+
+            <!-- 关于 -->
+
+            <RelativeLayout
+                android:id="@+id/settings_about"
+                style="@style/userinfo_item_style"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    style="@style/userinfo_item_left_style"
+                    android:text="@string/settings_about_text" />
+            </RelativeLayout>
+
+            <LinearLayout style="@style/userinfo_item_divide_container_style" >
+
+                <View style="@style/userinfo_item_divide_style" />
+            </LinearLayout>
+           
+            <!-- 免责声明 -->
+
+            <RelativeLayout
+                android:id="@+id/settings_disclaimer"
+                style="@style/userinfo_item_style" >
+
+                <TextView
+                    style="@style/userinfo_item_left_style"
+                    android:text="@string/settings_disclaimer_text" />
+            </RelativeLayout>
+
+            <LinearLayout style="@style/userinfo_item_divide_container_style" >
+
+                <View style="@style/userinfo_item_divide_style" />
+            </LinearLayout>
+
+            <!-- 检查更新 -->
+
+            <RelativeLayout
+                android:id="@+id/settings_check_for_updates"
+                style="@style/userinfo_item_style" >
+
+                <TextView
+                    style="@style/userinfo_item_left_style"
+                    android:text="@string/settings_check_for_updates_text" />
+
+                <TextView
+                    android:id="@+id/settings_check_for_updates_show"
+                    style="@style/userinfo_item_right_style"
+                    android:text="当前版本：V2.0" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\ucatch\UCatch\build\intermediates\exploded-aar\UCatch\library\unspecified\jars\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="88810db8cd6676fb64eabd762f3808efd6acdc31">
+        <dex dex="F:\ucatch\UCatch\build\intermediates\pre-dexed\debug\android-support-v4_ea2932003d1aecb383cadb8c56e340713b886525.jar" />
+    </item>
+    <item
+        jar="F:\ucatch\UCatch\libs\android-async-http-1.4.6.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
+        <dex dex="F:\ucatch\UCatch\build\intermediates\pre-dexed\debug\android-async-http-1.4.6_164e7bcdb6535508ffcbefdb274a37f4aae527e5.jar" />
+    </item>
+    <item
+        jar="F:\ucatch\UCatch\libs\commons-io-2.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="F:\ucatch\UCatch\build\intermediates\pre-dexed\debug\commons-io-2.4_4a7afab5d7bfe4244534c3e6ef96e3933b9985ba.jar" />
+    </item>
+    <item
+        jar="F:\ucatch\UCatch\libs\locSDK_6.12.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="010b23f54856d560fe7cd47fbe6659d916db19f1">
+        <dex dex="F:\ucatch\UCatch\build\intermediates\pre-dexed\debug\locSDK_6.12_9fec79c5c5d31326c973eda5ece5a66b36f6e059.jar" />
+    </item>
+    <item
+        jar="F:\ucatch\UCatch\libs\SocialSDK_Sina.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fd07c18d274be387922d55964e04cb418133c80f">
+        <dex dex="F:\ucatch\UCatch\build\intermediates\pre-dexed\debug\SocialSDK_Sina_c5222f5a68553e2602fc77ade36246b61a466103.jar" />
+    </item>
+    <item
+        jar="F:\ucatch\UCatch\libs\pinyin4j-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ae353005f973da1cd8545b54354504c2503f6865">
+        <dex dex="F:\ucatch\UCatch\build\intermediates\pre-dexed\debug\pinyin4j-2.5.0_a8c58b074037043b48a48296f4374f1a20eaa8e0.jar" />
+    </item>
+    <item
+        jar="F:\ucatch\UCatch\libs\glide-3.6.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a7537446a030da8eb0da4c71424d16c2589f6c4a">
+        <dex dex="F:\ucatch\UCatch\build\intermediates\pre-dexed\debug\glide-3.6.0_dad9a21e676f0ffbecedf63bf69f6df00e8ae9e9.jar" />
+    </item>
+    <item
+        jar="F:\ucatch\UCatch\libs\cyberplayer-sdk.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1df4de2c913e6d8b5ecce4b3f06fe2e53a6b32ec">
+        <dex dex="F:\ucatch\UCatch\build\intermediates\pre-dexed\debug\cyberplayer-sdk_864c00c09631df48e825353a7cb7fb90cf98d528.jar" />
+    </item>
+    <item
+        jar="F:\ucatch\UCatch\libs\SocialSDK_QQZone_2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4a69b33758dcba3ef519cbd4b6c8af5f41603c4f">
+        <dex dex="F:\ucatch\UCatch\build\intermediates\pre-dexed\debug\SocialSDK_QQZone_2_e78d6973332cd5a5c81ac1f0e33af829127aa508.jar" />
+    </item>
+    <item
+        jar="F:\ucatch\UCatch\libs\Android_Map_2.5.1.20150827.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="97509736599b1c60770a115c3a63c549b103845c">
+        <dex dex="F:\ucatch\UCatch\build\intermediates\pre-dexed\debug\Android_Map_2.5.1.20150827_697acd9b2f11210a15fc3a31cbbd9ea0fb3f8e38.jar" />
+    </item>
+    <item
+        jar="F:\ucatch\UCatch\libs\nineoldandroids-library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="F:\ucatch\UCatch\build\intermediates\pre-dexed\debug\nineoldandroids-library-2.4.0_c1939e2b9d446fc7a768636de54961105ca09141.jar" />
+    </item>
+    <item
+        jar="F:\ucatch\UCatch\libs\okhttp-2.3.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2e7bc7033dc2c8423e661224171b3133fb155b28">
+        <dex dex="F:\ucatch\UCatch\build\intermediates\pre-dexed\debug\okhttp-2.3.0_6bdfca47faa22dc4f31f9615d41c636972f2096a.jar" />
+    </item>
+    <item
+        jar="F:\ucatch\UCatch\libs\fastjson-1.2.6.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b74bde9cceb2f9ec1077a9c7c3a007c251531ba6">
+        <dex dex="F:\ucatch\UCatch\build\intermediates\pre-dexed\debug\fastjson-1.2.6_7857a6b38ca593636697f427841d96c31e224eea.jar" />
+    </item>
+    <item
+        jar="F:\ucatch\UCatch\build\intermediates\exploded-aar\UCatch\library\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="bffb1c1fc4ceb5f391a8b70e23001403ee14043a">
+        <dex dex="F:\ucatch\UCatch\build\intermediates\pre-dexed\debug\UCatch-library-unspecified_edc17797f81342843723ab2e4be7f3da4bc2373f.jar" />
+    </item>
+    <item
+        jar="F:\ucatch\UCatch\libs\httpmime-4.1.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e70d34d98f7f7f3b2b92105b9f2fe2a7a7184461">
+        <dex dex="F:\ucatch\UCatch\build\intermediates\pre-dexed\debug\httpmime-4.1.3_18dbf8f0793b48813648d3ffe497101df94e45b5.jar" />
+    </item>
+    <item
+        jar="F:\ucatch\UCatch\libs\jpush-sdk-release1.8.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="bea84de265dbd10ec4ea0d0185cf19dce738edd6">
+        <dex dex="F:\ucatch\UCatch\build\intermediates\pre-dexed\debug\jpush-sdk-release1.8.0_c92d8a729397ccda6f5e57eea98145a4e7d1a56d.jar" />
+    </item>
+    <item
+        jar="F:\ucatch\UCatch\libs\MapApiServices.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e84628aa8eea7b9892768f19c41dbe02abc7f666">
+        <dex dex="F:\ucatch\UCatch\build\intermediates\pre-dexed\debug\MapApiServices_e6117cab6023ef8afc7a945b71bd4bf9070a4dc3.jar" />
+    </item>
+    <item
+        jar="F:\ucatch\UCatch\libs\AMap_ Location_v1.4.0_20150830.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="77864ab8aa4e06bec7125d37edc68a5afd2d6930">
+        <dex dex="F:\ucatch\UCatch\build\intermediates\pre-dexed\debug\AMap_ Location_v1.4.0_20150830_2c37924df3f7631e994aa0111e96792445ed6a0e.jar" />
+    </item>
+    <item
+        jar="F:\ucatch\UCatch\libs\SocialSDK_WeiXin_2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ec0faf74d92d4882d9be51b1b9ebb5ebc83fbea7">
+        <dex dex="F:\ucatch\UCatch\build\intermediates\pre-dexed\debug\SocialSDK_WeiXin_2_1b992044172dea72094ba82934b825e1954e687f.jar" />
+    </item>
+    <item
+        jar="F:\ucatch\UCatch\libs\SocialSDK_WeiXin_1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d7c2f29c05b35e8c8713be2b81c41cf18f98b64a">
+        <dex dex="F:\ucatch\UCatch\build\intermediates\pre-dexed\debug\SocialSDK_WeiXin_1_6bf6f250d01a9fa16181e3a8452ce62fa4dedca2.jar" />
+    </item>
+    <item
+        jar="F:\ucatch\UCatch\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="F:\ucatch\UCatch\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3_55ca44366cf78c527cde5eafb26e145a0668745a.jar" />
+    </item>
+    <item
+        jar="F:\ucatch\UCatch\libs\okio-1.3.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1b355f73402020c5a0dcca58affc3ec3dfeabac1">
+        <dex dex="F:\ucatch\UCatch\build\intermediates\pre-dexed\debug\okio-1.3.0_9cae8f7ac9c3cfcaf8bdca5ff9ddf934f2ea37ba.jar" />
+    </item>
+    <item
+        jar="F:\ucatch\UCatch\libs\customshapeimageview.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="860e3e4b4f889385ec2b8e611e0a5a6977959a92">
+        <dex dex="F:\ucatch\UCatch\build\intermediates\pre-dexed\debug\customshapeimageview_cdf9e9829ced395ab65d01c07ab7e84ce3cbd51a.jar" />
+    </item>
+    <item
+        jar="F:\ucatch\UCatch\libs\SocialSDK_QQZone_1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
+        <dex dex="F:\ucatch\UCatch\build\intermediates\pre-dexed\debug\SocialSDK_QQZone_1_b9c0f0a89518573b85b556782450e895da45c06b.jar" />
+    </item>
+    <item
+        jar="F:\ucatch\UCatch\libs\umeng_social_sdk.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="857c78387c5b911f5dc9b20b307f0edfd16befed">
+        <dex dex="F:\ucatch\UCatch\build\intermediates\pre-dexed\debug\umeng_social_sdk_fb2d9b8b6441b781a83f70ce0976b65df02d4c10.jar" />
+    </item>
+    <item
+        jar="F:\ucatch\UCatch\libs\SocialSDK_QQZone_3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d57cae1dcd1eeeec2cd8197fcdd7a0316216481e">
+        <dex dex="F:\ucatch\UCatch\build\intermediates\pre-dexed\debug\SocialSDK_QQZone_3_0567db9c8129a79f6c9acf651f5160de975a426a.jar" />
+    </item>
+
+</items>

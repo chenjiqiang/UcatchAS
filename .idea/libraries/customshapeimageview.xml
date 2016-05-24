@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="customshapeimageview">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/customshapeimageview.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

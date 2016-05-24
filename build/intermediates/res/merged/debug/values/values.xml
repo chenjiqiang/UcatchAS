@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_1">#ff29549f</color>
+    <color name="airport_cursor">#33b5e5</color>
+    <color name="all_track_color">#ff222222</color>
+    <color name="background_1">#ffffffff</color>
+    <color name="bg_color">#F4F3F3</color>
+    <color name="bg_color_deep">#E5E5E5</color>
+    <color name="black"> #000000</color>
+    <color name="black_half">#50000000</color>
+    <color name="block_column_1">#ff0fabff</color>
+    <color name="block_column_2">#ffdf1831</color>
+    <color name="block_column_3">#ff009939</color>
+    <color name="blue">#4876FF</color>
+    <color name="blue_text">#50ADEE</color>
+    <color name="body_text_1">#ff000000</color>
+    <color name="body_text_1_inverse">#ffffffff</color>
+    <color name="body_text_2">#99000000</color>
+    <color name="body_text_2_inverse">#99ffffff</color>
+    <color name="body_text_disabled">#66000000</color>
+    <color name="border_color">#D6D6D6</color>
+    <color name="circle">#aa738ffe</color>
+    <color name="color_bg_normal">#e7e7e8</color>
+    <color name="color_bg_selected">#e0301e</color>
+    <color name="color_text_normal">#000000</color>
+    <color name="color_text_selected">#6593cb</color>
+    <color name="comment_color">#000000</color>
+    <color name="common_background_color">#f5f5f5</color>
+    <color name="common_deepth_divider_color">#d7d7d7</color>
+    <color name="common_divider_color">#a6a6a6</color>
+    <color name="common_minor_title_text_color">#7d7d7d</color>
+    <color name="common_text_color">#313131</color>
+    <color name="common_title_bottom_divide_line_bg">#78a0c3</color>
+    <color name="common_title_text">#ffffff</color>
+    <color name="common_weak_hint_text_color">#969696</color>
+    <color name="darkgrey"> #C0C0C0</color>
+    <color name="darkyellow"> #FFCC33</color>
+    <color name="dialog_bg">#ffffff</color>
+    <color name="feedback_detail_bg">#f5f5f5</color>
+    <color name="gray">#E5E5E5</color>
+    <color name="grey"> #ebebeb</color>
+    <color name="home_gb">#ebebeb</color>
+    <color name="hyperlink">#ffff549f</color>
+    <color name="light_blue">#6593cb</color>
+    <color name="light_gray">#E5E5E5</color>
+    <color name="login_button_text_color">#444444</color>
+    <color name="login_edittext_border_color">#e6e6e6</color>
+    <color name="login_edittext_hint_color">#a6a6a6</color>
+    <color name="myvoice_edit_submit">#f59150</color>
+    <color name="no_color">#00000000</color>
+    <color name="rect">#aae84e40</color>
+    <color name="red"> #FF0000</color>
+    <color name="red_bg">#cf000e</color>
+    <color name="register_forget_text_hint_color">#444444</color>
+    <color name="shadow">#25808080</color>
+    <color name="tab_middle_line_color">#5c882c</color>
+    <color name="tab_title_normal_color">#262726</color>
+    <color name="tab_title_pressed_color">#16982b</color>
+    <color name="text_color">#434343</color>
+    <color name="transparent">#50000000</color>
+    <color name="triangle">#aa72d572</color>
+    <color name="view_bg">#00000000</color>
+    <color name="whats_on_separator">#4d000000</color>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="LoadingView"><attr format="string" name="loadingText"/><attr format="reference" name="loadingTextAppearance"/></declare-styleable>
+    <declare-styleable name="PullToRefresh"><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr name="ptrMode"><flag name="disabled" value="0x0"/><flag name="pullFromStart" value="0x1"/><flag name="pullFromEnd" value="0x2"/><flag name="both" value="0x3"/><flag name="manualOnly" value="0x4"/><flag name="pullDownFromTop" value="0x1"/><flag name="pullUpFromBottom" value="0x2"/></attr><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="ptrDrawable"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrDrawableEnd"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr name="ptrAnimationStyle"><flag name="rotate" value="0x0"/><flag name="flip" value="0x1"/></attr><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="reference" name="ptrDrawableTop"/><attr format="reference" name="ptrDrawableBottom"/></declare-styleable>
+    <declare-styleable name="RoundProgressBar"><attr format="color" name="roundColor"/><attr format="color" name="roundProgressColor"/><attr format="dimension" name="roundWidth"/><attr format="color" name="textColor"/><attr format="dimension" name="textSize"/><attr format="integer" name="max"/><attr format="boolean" name="textIsDisplayable"/><attr name="style"><enum name="STROKE" value="0"/><enum name="FILL" value="1"/></attr></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="comment_activity_title">19sp</dimen>
+    <dimen name="comment_content_text">16sp</dimen>
+    <dimen name="comment_time">15sp</dimen>
+    <dimen name="comment_topright_textsize">14dp</dimen>
+    <dimen name="common_Text1_size">18sp</dimen>
+    <dimen name="common_Text2_size">16sp</dimen>
+    <dimen name="common_Text3_size">18sp</dimen>
+    <dimen name="common_TextBlue_size">12sp</dimen>
+    <dimen name="common_TopFont_size">22sp</dimen>
+    <dimen name="common_large_textsize">16dp</dimen>
+    <dimen name="common_login_hit_text_size">14sp</dimen>
+    <dimen name="common_menu_item_areaname_font_size">13sp</dimen>
+    <dimen name="common_menu_item_font_size">18sp</dimen>
+    <dimen name="common_menu_item_username_font_size">16sp</dimen>
+    <dimen name="common_middle_textsize">14dp</dimen>
+    <dimen name="common_page_edge_distance_24">11dp</dimen>
+    <dimen name="common_page_edge_distance_34">15dp</dimen>
+    <dimen name="common_page_edge_distance_48">22dp</dimen>
+    <dimen name="common_page_edge_distance_72">32dp</dimen>
+    <dimen name="common_small_textsize">142dp</dimen>
+    <dimen name="common_title_bar_header_size">32dp</dimen>
+    <dimen name="common_title_text_size">21sp</dimen>
+    <dimen name="dialog_cancle">20sp</dimen>
+    <dimen name="dialog_content">20sp</dimen>
+    <dimen name="dialog_ok">20sp</dimen>
+    <dimen name="dialog_titile">22sp</dimen>
+    <dimen name="distance10">10dp</dimen>
+    <dimen name="distance12">12dp</dimen>
+    <dimen name="distance2">2dp</dimen>
+    <dimen name="distance20">20dp</dimen>
+    <dimen name="distance25">25dp</dimen>
+    <dimen name="distance4">4dp</dimen>
+    <dimen name="distance6">6dp</dimen>
+    <dimen name="distance8">8dp</dimen>
+    <dimen name="find_more">14sp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="loginout_btn_height">30dp</dimen>
+    <dimen name="loginout_text">25sp</dimen>
+    <dimen name="mine_friends">18dp</dimen>
+    <dimen name="select_finish_padding">10dp</dimen>
+    <dimen name="select_pic_finish_text">18sp</dimen>
+    <dimen name="tabble_icon_text">12sp</dimen>
+    <dimen name="title">20sp</dimen>
+    <dimen name="title_son">16sp</dimen>
+    <dimen name="titlebar_text_1">22sp</dimen>
+    <dimen name="titlebar_text_2">18sp</dimen>
+    <dimen name="top_navigation_height">48dp</dimen>
+    <dimen name="top_title_bar_height">45dp</dimen>
+    <item name="gridview" type="id"/>
+    <item name="scrollview" type="id"/>
+    <item name="webview" type="id"/>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="app_name" translatable="false">UCatch</string>
+    <string name="cancel">取消</string>
+    <string name="comment_text_default">默认的图片评论描述。。。</string>
+    <string name="common_comment_hint">说说你的看法</string>
+    <string name="common_comment_text">评论</string>
+    <string name="common_imageview_contentDescription">图片显示中……</string>
+    <string name="confirm_password_text">请再输入8~16位密码</string>
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="leave_msg">留言</string>
+    <string name="load_fail">加载失败</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="loading">正在加载...</string>
+    <string name="location">珠海国际赛车场</string>
+    <string name="login_click_me_to_register">点我注册</string>
+    <string name="login_forget_password">忘记密码?</string>
+    <string name="login_login">登      录</string>
+    <string name="login_password">密  码</string>
+    <string name="login_username">用户手机号码</string>
+    <string name="logout">退出登录</string>
+    <string name="modified_password_text">请输入8~16位密码</string>
+    <string name="new_register_agreement_and_privacy">服务许可与隐私协议</string>
+    <string name="new_register_display_password">显示密码</string>
+    <string name="new_register_mobilephone_tip">请输入您的手机号码</string>
+    <string name="new_register_password_hint">请输入8~16位数密码</string>
+    <string name="new_register_password_old">请输入旧密码</string>
+    <string name="new_register_signagreement_hint">已阅读并同意</string>
+    <string name="new_register_verification_code_tip">请输入您的邮箱（用于找回密码）</string>
+    <string name="nologin_prompt">您还未登录哦~</string>
+    <string name="ok">确认</string>
+    <string name="original_password_text">请输入原始密码</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_pull_label">Pull to refresh…</string>
+    <string name="pull_to_refresh_refreshing_label">Loading…</string>
+    <string name="pull_to_refresh_release_label">Release to refresh…</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="register_agreement_and_privacy">服务许可与隐私协议</string>
+    <string name="register_or_login">登录/注册</string>
+    <string name="register_password_hint">请输入8-16位密码</string>
+    <string name="register_phone_hint">请输入您的手机号</string>
+    <string name="register_signagreement_hint">已阅读并同意</string>
+    <string name="register_verification_code_tip">请输入您的验证码</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="remember_password_checkbox_text">记住密码</string>
+    <string name="settings_about_text">关于</string>
+    <string name="settings_anti_interference_pattern_text">防打扰模式</string>
+    <string name="settings_check_for_updates_show">版本号</string>
+    <string name="settings_check_for_updates_text">检查更新</string>
+    <string name="settings_disclaimer_text">免责声明</string>
+    <string name="settings_end_time_text">结束时间</string>
+    <string name="settings_push_message_text">消息推送</string>
+    <string name="settings_shake_reminder_text">震动提醒</string>
+    <string name="settings_start_time_text">开始时间</string>
+    <string name="settings_voice_reminder_text">声音提醒</string>
+    <string name="show_password_checkbox_text">显示密码</string>
+    <string name="submit_text">提交</string>
+    <string name="title">提示</string>
+    <string name="to_message">去留言</string>
+    <string name="ucatch">拾取</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_header_hint_loading">正在加载…</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+
+
+
+
+
+
+
+
+
+
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="CommonDialogTransparentStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground"> @android:color/transparent </item>
+        <!-- 设置遮罩层 -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="activity_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <!-- 半透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="common_FontShadow_textview">
+        <item name="android:shadowColor">#1f7591</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowRadius">0.1</item>
+    </style>
+    <style name="common_dialog_bg_style">
+        <item name="android:layout_width">256dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/common_dialog_container</item>
+    </style>
+    <style name="common_dialog_line_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#6992c4</item>
+    </style>
+    <style name="common_dialog_title_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#6992c4</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="custom_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog的windowFrame框为无 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否漂现在activity上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 是否半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 去除黑色边框的关键设置项 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 屏幕背景是否变暗 -->
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+    <style name="dialog_style" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否悬浮于activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">false</item>
+        <!-- 除去title -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+        <item name="android:windowBackground">@color/transparent</item>
+        <!-- 除去背景色 -->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="login_edittext">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColorHint">@color/login_edittext_hint_color</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="userinfo_item_divide_container_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="userinfo_item_divide_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.8dp</item>
+        <item name="android:layout_marginLeft">11dp</item>
+        <item name="android:layout_marginRight">11dp</item>
+        <item name="android:background">@color/home_gb</item>
+    </style>
+    <style name="userinfo_item_left_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:textColor">@color/common_text_color</item>
+        <item name="android:textSize">@dimen/common_Text2_size</item>
+    </style>
+    <style name="userinfo_item_right_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textColor">@color/common_minor_title_text_color</item>
+        <item name="android:textSize">@dimen/common_Text2_size</item>
+    </style>
+    <style name="userinfo_item_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">22dp</item>
+        <item name="android:paddingRight">22dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+</resources>

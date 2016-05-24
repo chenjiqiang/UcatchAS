@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_bar_icon_normal.png",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable-hdpi\\search_bar_icon_normal.png"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\indicator_arrow.png",
+        "source": "F:\\ucatch\\UCatch\\build\\intermediates\\exploded-aar\\UCatch\\library\\unspecified\\res\\drawable-hdpi-v4\\indicator_arrow.png"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_bottom_line.png",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable-hdpi\\tab_bottom_line.png"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\emotionstore_progresscancelbtn.png",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable-hdpi\\emotionstore_progresscancelbtn.png"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\location_marker.png",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable-hdpi\\location_marker.png"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_bar_edit_normal.9.png",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable-hdpi\\search_bar_edit_normal.9.png"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_ptr_rotate.png",
+        "source": "F:\\ucatch\\UCatch\\build\\intermediates\\exploded-aar\\UCatch\\library\\unspecified\\res\\drawable-hdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_ptr_flip.png",
+        "source": "F:\\ucatch\\UCatch\\build\\intermediates\\exploded-aar\\UCatch\\library\\unspecified\\res\\drawable-hdpi-v4\\default_ptr_flip.png"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_bar_edit_pressed.9.png",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable-hdpi\\search_bar_edit_pressed.9.png"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\show_head_toast_bg.9.PNG",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable-hdpi\\show_head_toast_bg.9.PNG"
+    }
+]

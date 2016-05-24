@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_background_color"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/toptitleview"
+        layout="@layout/common_top_navigate_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_page_edge_distance_34"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/register_mobile_phone"
+            android:layout_width="0dp"
+            android:layout_height="59dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="@string/register_phone_hint"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:paddingLeft="@dimen/common_page_edge_distance_34"
+            android:singleLine="true"
+            android:textColor="@color/common_text_color"
+            android:textSize="@dimen/common_menu_item_username_font_size" />
+
+        <Button
+            android:id="@+id/register_send_verification_code"
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/usercenter_verification_button_red_bg"
+            android:singleLine="true"
+            android:text="获取验证码"
+            android:textColor="@color/white"
+            android:textSize="@dimen/common_menu_item_areaname_font_size" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/common_page_edge_distance_24"
+        android:layout_marginRight="@dimen/common_page_edge_distance_24"
+        android:background="@color/common_deepth_divider_color" />
+
+    <EditText
+        android:id="@+id/register_verification_code"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:hint="@string/register_verification_code_tip"
+        android:inputType="number"
+        android:maxLength="6"
+        android:paddingLeft="@dimen/common_page_edge_distance_34"
+        android:singleLine="true"
+        android:textColor="@color/common_text_color"
+        android:textSize="@dimen/common_menu_item_username_font_size" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/common_page_edge_distance_24"
+        android:layout_marginRight="@dimen/common_page_edge_distance_24"
+        android:background="@color/common_deepth_divider_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/register_password"
+            android:layout_width="0dp"
+            android:layout_height="59dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:hint="@string/register_password_hint"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:paddingLeft="@dimen/common_page_edge_distance_34"
+            android:singleLine="true"
+            android:textColor="@color/common_text_color"
+            android:textSize="@dimen/common_menu_item_username_font_size" />
+
+        <Switch
+            android:id="@+id/swich_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:padding="10dp"
+            android:switchPadding="20dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/common_page_edge_distance_24"
+        android:layout_marginRight="@dimen/common_page_edge_distance_24"
+        android:background="@color/common_deepth_divider_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/common_page_edge_distance_34"
+        android:layout_marginTop="@dimen/common_page_edge_distance_34"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/common_page_edge_distance_34" >
+
+        <TextView
+            android:id="@+id/select_flag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/checked"
+            android:drawablePadding="@dimen/common_page_edge_distance_24"
+            android:gravity="center_vertical"
+            android:text="@string/register_signagreement_hint"
+            android:textColor="@color/common_weak_hint_text_color" />
+
+        <TextView
+            android:id="@+id/select_agreement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/register_agreement_and_privacy"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/common_menu_item_areaname_font_size" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register_ok"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginLeft="@dimen/common_page_edge_distance_24"
+        android:layout_marginRight="@dimen/common_page_edge_distance_24"
+        android:background="@drawable/usercenter_register_button_gray_bg"
+        android:text="注\u3000册"
+        android:textColor="@color/red"
+        android:textSize="@dimen/common_menu_item_font_size" />
+
+</LinearLayout>

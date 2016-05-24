@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_bottom.xml",
+        "source": "F:\\ucatch\\UCatch\\build\\intermediates\\exploded-aar\\UCatch\\library\\unspecified\\res\\anim\\slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\anim\\shake_umeng_socialize_dlg_alpha.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\anim\\shake_umeng_socialize_dlg_alpha.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\anim\\custom_item_anim.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\anim\\custom_item_anim.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_bottom.xml",
+        "source": "F:\\ucatch\\UCatch\\build\\intermediates\\exploded-aar\\UCatch\\library\\unspecified\\res\\anim\\slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_fade_out.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\anim\\umeng_socialize_fade_out.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_top.xml",
+        "source": "F:\\ucatch\\UCatch\\build\\intermediates\\exploded-aar\\UCatch\\library\\unspecified\\res\\anim\\slide_in_from_top.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_fade_in.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\anim\\umeng_socialize_fade_in.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\anim\\shake_umeng_socialize_scrshot_dlg.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\anim\\shake_umeng_socialize_scrshot_dlg.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\anim\\btn_click_scale_anim.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\anim\\btn_click_scale_anim.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_top.xml",
+        "source": "F:\\ucatch\\UCatch\\build\\intermediates\\exploded-aar\\UCatch\\library\\unspecified\\res\\anim\\slide_out_to_top.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\anim\\shake_umeng_socialize_edit_anim.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\anim\\shake_umeng_socialize_edit_anim.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\anim\\btn_click_alpha_anim.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\anim\\btn_click_alpha_anim.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\anim\\shake_umeng_socialize_cycle_5.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\anim\\shake_umeng_socialize_cycle_5.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_shareboard_animation_out.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\anim\\umeng_socialize_shareboard_animation_out.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_slide_out_from_bottom.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\anim\\umeng_socialize_slide_out_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\anim\\reverse_anim.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\anim\\reverse_anim.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\anim\\rotating.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\anim\\rotating.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\anim\\layout_animation.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\anim\\layout_animation.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_shareboard_animation_in.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\anim\\umeng_socialize_shareboard_animation_in.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\anim\\shake_umeng_socialize_dlg_scale.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\anim\\shake_umeng_socialize_dlg_scale.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\anim\\shake_umeng_socialize_imageview_rotate.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\anim\\shake_umeng_socialize_imageview_rotate.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_slide_in_from_bottom.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\anim\\umeng_socialize_slide_in_from_bottom.xml"
+    }
+]

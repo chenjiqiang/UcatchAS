@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical" >
+
+    <com.meg7.widget.CircleImageView
+        android:id="@+id/comment_item_headPic"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:src="@drawable/main_rightmenu_default_head" />
+
+    <TextView
+        android:id="@+id/comment_item_userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/comment_item_headPic"
+        android:text="cc" />
+
+    <TextView
+        android:id="@+id/comment_item_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/comment_item_userName"
+        android:layout_toRightOf="@id/comment_item_headPic"
+        android:text="this is my viewpoint" />
+
+    <TextView
+        android:id="@+id/comment_item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="8分钟前" />
+
+</RelativeLayout>

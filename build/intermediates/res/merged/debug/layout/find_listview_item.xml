@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" >
+
+        <LinearLayout
+            android:id="@+id/ll_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <com.meg7.widget.CircleImageView
+                android:id="@+id/find_listview_user_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/main_rightmenu_default_head" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/find_listview_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ucatch"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/find_listview_occur_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/edit_location"
+                    android:text="南方软件园  8分钟前"
+                    android:textColor="@color/common_weak_hint_text_color"
+                    android:textSize="12.6sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/bt_attention"
+                android:layout_width="66dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:focusable="false"
+                android:text="关注" >
+            </Button>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/find_listview_item_img"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/ll_top"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/default_pic" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/find_listview_leave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_top"
+            android:layout_margin="20dp"
+            android:background="@drawable/bg_talk"
+            android:gravity="center"
+            android:text="用户留言"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/find_listview_comment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/find_listview_item_img"
+            android:layout_margin="10dp"
+            android:text="用户的评论"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/find_listview_comment"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/find_list_comment_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/common_comment_icon"
+                    android:drawablePadding="10dp"
+                    android:focusable="false"
+                    android:text="0"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="27dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/tab_middle_line_color" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/find_list_praise_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/common_praise_do"
+                    android:drawablePadding="10dp"
+                    android:focusable="false"
+                    android:text="0"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

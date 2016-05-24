@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@color/white"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp" >
+
+    <com.meg7.widget.CircleImageView
+        android:id="@+id/comment_user_icon"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:divider="#00000000"
+        android:dividerHeight="0dp"
+        android:src="@drawable/main_rightmenu_default_head"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/comment_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/comment_user_icon"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/comment_user_icon"
+        android:text="UCatch"
+        android:textColor="@color/black"
+        android:textSize="14.4sp" />
+
+    <TextView
+        android:id="@+id/comment_occur_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/comment_user_icon"
+        android:layout_alignLeft="@+id/comment_user_name"
+        android:text="8分钟前"
+        android:textColor="@color/common_weak_hint_text_color"
+        android:textSize="12.6sp" />
+
+    <TextView
+        android:id="@+id/home_item_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/comment_user_icon"
+        android:layout_alignTop="@+id/comment_user_name"
+        android:layout_toRightOf="@+id/comment_occur_time"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="2"
+        android:paddingLeft="16dp"
+        android:text="南方软件园"
+        android:textColor="@color/black"
+        android:textSize="12.6sp" />
+
+    <TextView
+        android:id="@+id/comment_comment_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/comment_occur_time"
+        android:drawablePadding="8.1dp"
+        android:drawableRight="@drawable/common_comment_icon"
+        android:gravity="center_horizontal|bottom"
+        android:padding="5dp"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="12.6sp" />
+
+    <TextView
+        android:id="@+id/comment_praise_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/comment_occur_time"
+        android:layout_toLeftOf="@id/comment_comment_count"
+        android:drawablePadding="8.1dp"
+        android:drawableRight="@drawable/common_praise_do"
+        android:gravity="center_horizontal|bottom"
+        android:padding="5dp"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="12.6sp" />
+
+    <TextView
+        android:id="@+id/bt_attention"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="10dp"
+        android:layout_below="@id/comment_praise_count"
+        android:background="@drawable/button_bg"
+        android:text="关注ta"
+        android:textSize="14sp" />
+
+</RelativeLayout>

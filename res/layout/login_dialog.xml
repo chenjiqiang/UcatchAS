@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/round_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="30dp" >
+
+    <RelativeLayout
+        android:id="@+id/title_relative"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/top_title_bar_height"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nologin_prompt"
+            android:textColor="@color/login_button_text_color"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/all_close" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <include layout="@layout/login_layout" />
+    </LinearLayout>
+
+</LinearLayout>

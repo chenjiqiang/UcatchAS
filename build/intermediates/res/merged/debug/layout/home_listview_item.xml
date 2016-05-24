@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@+id/listview_item_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/default_pic"
+            android:scaleType="centerCrop" />
+
+        <com.meg7.widget.CircleImageView
+            android:id="@+id/userhead_pic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/main_rightmenu_default_head" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/userhead_pic"
+            android:layout_alignTop="@id/userhead_pic"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/userhead_pic"
+            android:background="@color/white"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/listview_item_descripe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/home_item_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/comment_text_default"
+        android:textColor="@color/comment_color" />
+
+    <include layout="@layout/xlistview_list_item" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/grey" />
+
+</LinearLayout>

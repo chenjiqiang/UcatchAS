@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">  
+    <item android:id="@android:id/background">  
+            <nine-patch android:src="@drawable/common_progressbar_bg_normal" android:dither="true" />  
+    </item>  
+  
+    <item android:id="@android:id/progress">  
+        <clip>  
+            <nine-patch android:src="@drawable/common_progressbar_bg_focus" android:dither="true" />  
+        </clip>  
+    </item> 
+</layer-list>

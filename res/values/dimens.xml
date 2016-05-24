@@ -1,0 +1,87 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- distance -->
+    <dimen name="select_finish_padding">10dp</dimen>
+    <dimen name="distance2">2dp</dimen>
+    <dimen name="distance4">4dp</dimen>
+    <dimen name="distance6">6dp</dimen>
+    <dimen name="distance8">8dp</dimen>
+    <dimen name="distance10">10dp</dimen>
+    <dimen name="distance12">12dp</dimen>
+    <dimen name="distance20">20dp</dimen>
+    <dimen name="distance25">25dp</dimen>
+    <dimen name="loginout_btn_height">30dp</dimen>
+    <!-- 顶部导航条高度 -->
+    <dimen name="top_navigation_height">48dp</dimen>
+
+    <!-- size -->
+    <dimen name="select_pic_finish_text">18sp</dimen>
+    <dimen name="comment_content_text">16sp</dimen>
+    <dimen name="comment_activity_title">19sp</dimen>
+    <dimen name="title">20sp</dimen>
+    <dimen name="comment_time">15sp</dimen>
+    <dimen name="titlebar_text_1">22sp</dimen>
+    <dimen name="titlebar_text_2">18sp</dimen>
+    <!-- 首页八个图标的下面文字的大小 -->
+    <dimen name="tabble_icon_text">12sp</dimen>
+    <!-- 首页子标题 -->
+    <dimen name="title_son">16sp</dimen>
+    <!-- 查看更多的字体大小 -->
+    <dimen name="find_more">14sp</dimen>
+    <!-- 我的账户退出字体大小 -->
+    <dimen name="loginout_text">25sp</dimen>
+
+    <!-- ===========================我是分割线=============================== -->
+    <!-- 标题栏高度 -->
+    <dimen name="top_title_bar_height">45dp</dimen>
+    <!-- 标题栏标题文字尺寸大小 -->
+    <dimen name="common_title_text_size">21sp</dimen>
+    <dimen name="common_title_bar_header_size">32dp</dimen>
+    <!-- start顶部条文字 大小1 -->
+    <dimen name="common_TopFont_size">22sp</dimen>
+
+    <!-- start正文标题文字 大小1 -->
+    <dimen name="common_Text1_size">18sp</dimen>
+
+    <!-- start蓝色文字 大小1 -->
+    <dimen name="common_TextBlue_size">12sp</dimen>
+
+    <!-- start正文文字 大小tab页签 -->
+    <dimen name="common_Text2_size">16sp</dimen>
+
+    <!-- start登录页面蓝色文字 大小1 -->
+    <dimen name="common_Text3_size">18sp</dimen>
+    <!-- 页边距24 -->
+    <dimen name="common_page_edge_distance_24">11dp</dimen>
+    <!-- 页边距34 -->
+    <dimen name="common_page_edge_distance_34">15dp</dimen>
+    <!-- 页边距48 -->
+    <dimen name="common_page_edge_distance_48">22dp</dimen>
+    <!-- 页边距72 -->
+    <dimen name="common_page_edge_distance_72">32dp</dimen>
+    <!-- 菜单项字体大小40 -->
+    <dimen name="common_menu_item_font_size">18sp</dimen>
+    <!-- 菜单项右侧用户名字体大小36 -->
+    <dimen name="common_menu_item_username_font_size">16sp</dimen>
+    <!-- 菜单项右侧用户名字体大小 -->
+    <dimen name="common_menu_item_areaname_font_size">13sp</dimen>
+    <!-- 登录框提示文字的大小 -->
+    <dimen name="common_login_hit_text_size">14sp</dimen>
+    <!-- 自定义对话框 -->
+    <dimen name="dialog_titile">22sp</dimen>
+    <dimen name="dialog_content">20sp</dimen>
+    <dimen name="dialog_cancle">20sp</dimen>
+    <dimen name="dialog_ok">20sp</dimen>
+    <!-- pullToRefresh -->
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="mine_friends">18dp</dimen>
+    <dimen name="comment_topright_textsize">14dp</dimen>
+    <dimen name="common_middle_textsize">14dp</dimen>
+    <dimen name="common_large_textsize">16dp</dimen>
+    <dimen name="common_small_textsize">142dp</dimen>
+
+</resources>

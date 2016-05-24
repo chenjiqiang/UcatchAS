@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp" >
+
+    <RadioGroup
+        android:id="@+id/tab_rg_menu"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/head_left_first"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center_vertical|right"
+            android:text="广场"
+            android:paddingRight="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/head_left_second"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center_vertical|left"
+            android:button="@null"
+            android:text="关注"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/tab_menu_red_line"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tab_rg_menu"
+        android:layout_below="@id/tab_rg_menu"
+        android:layout_marginBottom="3dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/tab_bottom_line" />
+
+    <Button
+        android:id="@+id/head_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="筛选" />
+    <!-- <ImageView -->
+    <!-- android:id="@+id/find_logo" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:src="@drawable/ic_launcher" /> -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/head_left_first" -->
+
+
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_toRightOf="@id/find_logo" -->
+    <!-- android:text="广场" -->
+    <!-- android:visibility="gone" /> -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/head_left_second" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_toRightOf="@id/head_left_first" -->
+    <!-- android:text="关注" -->
+    <!-- android:visibility="gone" /> -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/head_right" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_alignParentRight="true" -->
+    <!-- android:text="筛选" -->
+    <!-- android:visibility="gone" /> -->
+
+</RelativeLayout>

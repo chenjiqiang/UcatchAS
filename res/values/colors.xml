@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <!-- 下拉刷新控件 PullToRefreshLayout 用到得颜色值 -->
+    <color name="light_blue">#6593cb</color>
+    <color name="light_gray">#E5E5E5</color>
+    <color name="blue_text">#50ADEE</color>
+    <color name="no_color">#00000000</color>
+    <color name="bg_color">#F4F3F3</color>
+    <color name="bg_color_deep">#E5E5E5</color>
+    <color name="text_color">#434343</color>
+    <color name="black_half">#50000000</color>
+    <color name="border_color">#D6D6D6</color>
+    <color name="airport_cursor">#33b5e5</color>
+
+    <!-- 标题栏上标题文字颜色 -->
+    <color name="common_title_text">#ffffff</color>
+    <!-- 标题栏底部分隔线颜色 -->
+    <color name="common_title_bottom_divide_line_bg">#78a0c3</color>
+    <!-- 首页背景颜色 -->
+    <color name="home_gb">#ebebeb</color>
+    <!-- 其他页背景色 -->
+    <color name="common_background_color">#f5f5f5</color>
+    <!-- 通用弱提示消息字体 -->
+    <color name="common_weak_hint_text_color">#969696</color>
+    <!-- 通用文字颜色，如列表标题之类的 -->
+    <color name="common_text_color">#313131</color>
+    <!-- 通用文字颜色，如列表标题之类的 -->
+    <color name="common_minor_title_text_color">#7d7d7d</color>
+    <!-- 通用分隔线颜色 -->
+    <color name="common_divider_color">#a6a6a6</color>
+    <!-- 深色分割线 -->
+    <color name="common_deepth_divider_color">#d7d7d7</color>
+    <color name="feedback_detail_bg">#f5f5f5</color>
+    <!-- 登录输入框提示信息的文字颜色 -->
+    <color name="login_edittext_hint_color">#a6a6a6</color>
+
+    <!-- 注册、忘记密码提示信息的文字颜色 -->
+    <color name="register_forget_text_hint_color">#444444</color>
+
+    <!-- 登录输入框边框颜色 -->
+    <color name="login_edittext_border_color">#e6e6e6</color>
+
+    <!-- 登录按钮文字颜色 -->
+    <color name="login_button_text_color">#444444</color>
+    <color name="red_bg">#cf000e</color>
+    <!-- 友盟的配置 -->
+    <color name="body_text_1">#ff000000</color>
+    <color name="body_text_2">#99000000</color>
+    <color name="body_text_disabled">#66000000</color>
+    <color name="body_text_1_inverse">#ffffffff</color>
+    <color name="body_text_2_inverse">#99ffffff</color>
+    <color name="accent_1">#ff29549f</color>
+    <color name="hyperlink">#ffff549f</color>
+    <color name="background_1">#ffffffff</color>
+    <color name="whats_on_separator">#4d000000</color>
+    <color name="all_track_color">#ff222222</color>
+    <color name="block_column_1">#ff0fabff</color>
+    <color name="block_column_2">#ffdf1831</color>
+    <color name="block_column_3">#ff009939</color>
+    <!--  -->
+    <color name="blue">#4876FF</color>
+    <color name="transparent">#50000000</color>
+    <color name="grey"> #ebebeb</color>
+    <color name="black"> #000000</color>
+    <color name="darkgrey"> #C0C0C0</color>
+    <color name="red"> #FF0000</color>
+    <color name="darkyellow"> #FFCC33</color>
+    <!-- radio 按钮颜色 -->
+    <color name="color_bg_selected">#e0301e</color>
+    <color name="color_bg_normal">#e7e7e8</color>
+    <color name="color_text_selected">#6593cb</color>
+    <color name="color_text_normal">#000000</color>
+    <!-- 我的声音编辑界面提交按钮文字颜色 -->
+    <color name="myvoice_edit_submit">#f59150</color>
+    <!-- 评论内容的字体颜色 -->
+    <color name="comment_color">#000000</color>
+    <color name="gray">#E5E5E5</color>
+    <!-- 首页 -->
+    <color name="tab_title_normal_color">#262726</color>
+    <color name="tab_title_pressed_color">#16982b</color>
+    <color name="tab_middle_line_color">#5c882c</color>
+
+</resources>

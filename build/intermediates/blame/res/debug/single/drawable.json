@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable\\sidebar_background.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable\\sidebar_background.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "F:\\ucatch\\UCatch\\build\\intermediates\\exploded-aar\\UCatch\\library\\unspecified\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable\\usercenter_verification_button_gray_bg.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable\\usercenter_verification_button_gray_bg.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable\\whiteborder.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable\\whiteborder.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable\\user_login_background.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable\\user_login_background.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable\\search_bar_edit_selector.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable\\search_bar_edit_selector.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "F:\\ucatch\\UCatch\\build\\intermediates\\exploded-aar\\UCatch\\library\\unspecified\\res\\drawable\\indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable\\round_bg.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable\\round_bg.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable\\common_top_navigate_collect_selector.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable\\common_top_navigate_collect_selector.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable\\common_dialog_container.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable\\common_dialog_container.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable\\pressednooutborder.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable\\pressednooutborder.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable\\border.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable\\border.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable\\usercenter_register_button_gray_bg.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable\\usercenter_register_button_gray_bg.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable\\usercenter_verification_button_red_bg.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable\\usercenter_verification_button_red_bg.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable\\usercenter_register_button_blue_bg.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable\\usercenter_register_button_blue_bg.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_cancel_button.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable\\progress_cancel_button.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable\\whitenooutborder.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable\\whitenooutborder.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable\\green_round_bg.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable\\green_round_bg.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable\\user_login_button_bg.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable\\user_login_button_bg.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable\\common_comment_button_normal_gb.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable\\common_comment_button_normal_gb.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable\\button_bg.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable\\shadow.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable\\common_checkbox_multiple_bg.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable\\common_checkbox_multiple_bg.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable\\common_comment_button_submit_bg.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable\\common_comment_button_submit_bg.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar_style.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable\\progressbar_style.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable\\information_comment_divider_bg.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable\\information_comment_divider_bg.xml"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable\\radiobutton.xml",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable\\radiobutton.xml"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\default_ptr_flip.png",
+        "source": "F:\\ucatch\\UCatch\\build\\intermediates\\exploded-aar\\UCatch\\library\\unspecified\\res\\drawable-mdpi-v4\\default_ptr_flip.png"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\default_ptr_rotate.png",
+        "source": "F:\\ucatch\\UCatch\\build\\intermediates\\exploded-aar\\UCatch\\library\\unspecified\\res\\drawable-mdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\indicator_arrow.png",
+        "source": "F:\\ucatch\\UCatch\\build\\intermediates\\exploded-aar\\UCatch\\library\\unspecified\\res\\drawable-mdpi-v4\\indicator_arrow.png"
+    },
+    {
+        "merged": "F:\\ucatch\\UCatch\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\test_background.9.png",
+        "source": "F:\\ucatch\\UCatch\\res\\drawable-mdpi\\test_background.9.png"
+    }
+]
